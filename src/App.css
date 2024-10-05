@@ -1,0 +1,59 @@
+
+.input-col{
+    width: 492px;
+    height: 80px;
+    background: #EBE9E6;
+}
+
+.cal-div{
+    width: 498px;
+    margin-top: 10px;
+    background: #EBE9E6;
+}
+
+.col-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-4{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but-num{
+    padding: 10px;
+    width: 80px;
+    font-size: 50px;
+}
+.but-num1{
+    width: 80px;
+    font-size: 40px;
+    padding: 10px;
+}
+.but-num2{
+    width: 180px;
+    font-size: 50px;
+    background: red;
+}
+
+
+
+
+
+
+
+
