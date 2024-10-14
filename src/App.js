@@ -12,7 +12,7 @@ function App() {
       try{
         setInputValue(eval(inputValue.toString()));
       } catch (error) {
-        setInputValue('Error');
+        setInputValue('0');
       }
     }else{
       setInputValue(inputValue+value);
@@ -20,7 +20,7 @@ function App() {
   };
   return (
     <div>
-      <input className='input-col' value={inputValue}/>
+      <input className='input-col' value={inputValue || 0} />
       <div className='cal-div'>
 
         <div className='col-1'>
