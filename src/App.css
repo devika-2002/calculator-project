@@ -5,12 +5,13 @@
     background: #EBE9E6;
     font-size: 35px;
     border: none;
-    border-radius: 10px
+    border-radius: 10px;
+    padding: 4px;
 }
 
 .cal-div{
     width: 498px;
-    margin-top: 10px;
+    margin-top: 20px;
     background: #EBE9E6;
 }
 
