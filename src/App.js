@@ -8,6 +8,12 @@ function App() {
       setInputValue('');
     }else if (value==='Delete'){
       setInputValue(inputValue.slice(0, -1));
+    }else if (value==='='){
+      try{
+        setInputValue(eval(inputValue.toString()));
+      } catch (error) {
+        setInputValue('Error');
+      }
     }else{
       setInputValue(inputValue+value);
     }
